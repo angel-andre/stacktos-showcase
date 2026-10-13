@@ -12,7 +12,7 @@ Stacktos is part of the **Bitcade** series of browser arcade games.
 
 ## How to play
 
-Tap to drop the next block. Line it up with the one below to keep the tower straight; perfect drops build combos. Every block is a real, recent Aptos mainnet transaction: transfers, swaps, contract calls and more.
+A plasma launcher below the tower carries each new block back and forth. Tap to fire it up and land it on the tower under Aptor. Any overhang is trimmed off, so the tower narrows; land a block exactly for a **Perfect**, which grows the tower back. Perfect landings build combos, and 5 in a row triggers **Fever** for double Perfect bonuses. Miss the tower and the run is over. Every block is a real, recent Aptos mainnet transaction: transfers, swaps, contract calls and more, with gold blocks for stablecoin transfers.
 
 ## The climb
 
@@ -42,10 +42,10 @@ Tap to drop the next block. Line it up with the one below to keep the tower stra
 
 - **Intro cinematic** that sets up Aptor's ascent
 
-  ![Intro](docs/screenshots/intro.png)
+  <img src="docs/screenshots/intro.png" alt="Intro" width="480">
 
 - **Live Aptos data**: blocks are real mainnet transactions
-- **Daily climb** with a shared challenge each day
+- **Daily Climb**: everyone gets the same climb each UTC day, with a daily height goal of 20 to 35 blocks, its own daily leaderboard and a streak counter that never penalizes a missed day
 - **Trophies** and **unlockables**
 - **Aptos tips with sources** between runs
 - **Global leaderboard**
