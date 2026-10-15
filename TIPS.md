@@ -4,7 +4,7 @@ Every Did you know? tip in Stacktos, with its official source.
 
 ## Genesis
 
-1. APTOS MAINNET LAUNCHED ON OCTOBER 17, 2022. [Aptos Network Currents](https://aptosnetwork.com/currents/aptos-eoy-community-update-2022)
+1. APTOS MAINNET LAUNCHED ON OCTOBER 17, 2022. [Aptos Network Currents](https://aptosnetwork.com/currents/aptos-eoy-community-update-2022) · [Aptos Labs — Aptos Autumn](https://medium.com/aptoslabs/aptos-autumn-is-here-92a8d904eb49)
 2. APTOS MAINNET LAUNCHED WITH 102 VALIDATOR NODES ACROSS 22 COUNTRIES. [Aptos Network Currents](https://aptosnetwork.com/currents/aptos-eoy-community-update-2022)
 3. KEYLESS ACCOUNTS LET YOU OWN AN APTOS ACCOUNT BY SIGNING IN WITH GOOGLE OR APPLE, NO SEED PHRASE. [Aptos Developer Docs](https://aptos.dev/build/guides/aptos-keyless/introduction)
 4. AN APTOS ACCOUNT CAN ROTATE ITS KEY AND STILL KEEP THE SAME ADDRESS. [Aptos Developer Docs](https://aptos.dev/build/guides/key-rotation)
@@ -16,7 +16,7 @@ Every Did you know? tip in Stacktos, with its official source.
 
 ## Mainnet
 
-10. APTOS SUPPORTS NATIVE USDT AND NATIVE USDC, TWO OF THE WORLD'S BIGGEST STABLECOINS. [Aptos Network Currents](https://aptosnetwork.com/currents/native-usdc-cross-chain-transfer-protocol-are-coming-to-aptos)
+10. APTOS SUPPORTS NATIVE USDT AND NATIVE USDC, TWO OF THE WORLD'S BIGGEST STABLECOINS. [Aptos Network Currents](https://aptosnetwork.com/currents/native-usdc-cross-chain-transfer-protocol-are-coming-to-aptos) · [Aptos Network Currents — Stablecoin Era](https://aptosnetwork.com/currents/the-stablecoin-era-arrives-on-aptos)
 11. WITH CIRCLE'S CCTP, USDC MOVES 1:1 BETWEEN APTOS AND 9 OTHER MAJOR BLOCKCHAINS. [Aptos Network Currents](https://aptosnetwork.com/currents/native-usdc-cross-chain-transfer-protocol-are-coming-to-aptos)
 12. SPHEREPAY USES APTOS FOR FASTER, LOWER-COST CROSS-BORDER STABLECOIN PAYMENTS. [Aptos Network Currents](https://aptosnetwork.com/currents/building-the-future-of-global-money-movement)
 13. YELLOW CARD USES APTOS FOR INSTANT, GAS-SPONSORED STABLECOIN TRANSFERS ACROSS 20 AFRICAN COUNTRIES. [Aptos Network Currents](https://aptosnetwork.com/currents/building-the-future-of-global-money-movement)
