@@ -20,7 +20,7 @@ Aptos community members and crypto-curious players who want a quick, one-tap gam
 
 ## Learn Aptos while you play
 
-Between runs, Stacktos shows a short **Did you know?** tip about Aptos. Each tip has a **Source** link to an official Aptos doc or post, so you can dig deeper in one tap. Tips are grouped by the same six climb zones, and the ones you see match the zone you reached. Collect them as you play: the trophies screen tracks how many **Aptos facts** you've learned (out of 50), saved only on your device.
+Between runs, Stacktos shows a short **Did you know?** tip about Aptos. Each tip has a **Source** link to an official Aptos doc or post, so you can dig deeper in one tap. See [all 50 tips with sources](TIPS.md). Tips are grouped by the same six climb zones, and the ones you see match the zone you reached. Collect them as you play: the trophies screen tracks how many **Aptos facts** you've learned (out of 50), saved only on your device.
 
 *As of October 15, 2026, from the v1.25.0 tip list in the game.*
 
