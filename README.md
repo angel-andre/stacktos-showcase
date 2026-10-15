@@ -24,7 +24,7 @@ Aptos community members and crypto-curious players who want a quick, one-tap gam
 
 ## How to play
 
-A plasma launcher below the tower carries each new block back and forth. Tap to fire it up and land it on the tower under Aptor. Any overhang is trimmed off, so the tower narrows; land a block exactly for a **Perfect**, which grows the tower back. Perfect landings build combos, and 5 in a row triggers **Fever** for double Perfect bonuses. Miss the tower and the run is over. Every block is a real, recent Aptos mainnet transaction: transfers, swaps, contract calls and more, with gold blocks for stablecoin transfers.
+A plasma launcher below the tower carries each new block back and forth. Tap to fire it up and land it on the tower under Aptor. Any overhang is trimmed off, so the tower narrows; land a block exactly for a **Perfect**; 3 Perfects in a row widen the block again. Perfect landings build combos, and 5 in a row triggers **Fever** for double Perfect bonuses. Miss the tower and the run is over. Every block is a real, recent Aptos mainnet transaction: transfers, swaps, contract calls and more, with gold blocks for stablecoin transfers and other highlighted transaction kinds.
 
 ## The climb
 
@@ -57,7 +57,6 @@ A plasma launcher below the tower carries each new block back and forth. Tap to 
   <img src="docs/screenshots/intro.png" alt="Intro" width="480">
 
 - **Live Aptos data**: blocks are real mainnet transactions
-- **Daily Climb**: everyone gets the same climb each UTC day, with a daily height goal of 20 to 35 blocks, its own daily leaderboard and a streak counter that never penalizes a missed day
 - **Trophies** and **unlockables**
 - **Aptos tips with sources** between runs
 - **Global leaderboard**
@@ -82,11 +81,12 @@ A phone-first browser game on Cloudflare's edge, with a small serverless backend
 
 ## Design decisions
 
+- **Teach by playing.** A first run shows short hints right where you play instead of a tutorial screen.
+
 - **One tap, phone first.** The whole game is a single input, so anyone can play in seconds.
 - **Real data as the game.** Blocks are recent mainnet transactions, so the network itself becomes the level.
 - **Learning without lecturing.** Zone names and short Aptos tips (with sources) teach a little between runs.
-- **A Daily Climb that respects your time.** Same climb for everyone each day, a reachable goal, and a streak that never punishes a missed day.
-- **Comeback mechanics.** Perfect landings grow the tower back, so skill is rewarded and runs stay tense.
+- **Comeback mechanics.** Streaks of Perfect landings widen the block again, and a near miss can hang on as an edge catch, so skill is rewarded and runs stay tense.
 
 ## What I'm learning
 
