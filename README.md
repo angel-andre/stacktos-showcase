@@ -2,13 +2,25 @@
 
 **An Aptos Game.** A one-tap tower climber where Aptor stacks live Aptos transactions as blocks, climbing through six zones to the summit at height 470.
 
-**Play:** coming soon
+**Status: in development** (latest build v1.25.0, not launched yet)
 
-Stacktos is part of the **Bitcade** series of browser arcade games.
+Stacktos is part of **Bitcade**, my series of browser arcade games.
 
 ![Stacktos gameplay](docs/gameplay.gif)
 
 ![Stacktos](docs/card.png)
+
+## Why I'm making it
+
+I'm a community manager at the Aptos Foundation, in crypto since 2021. Explaining how a blockchain works is hard; playing with one is easy. Stacktos turns real Aptos mainnet transactions into the blocks you stack, so every run is a small, fun lesson about the network, with zones named after Aptos ideas like Block-STM, parallel execution and Move.
+
+## Who it's for
+
+Aptos community members and crypto-curious players who want a quick, one-tap game on their phone, and anyone who'd like to learn a little about Aptos along the way.
+
+## The numbers
+
+*As of October 15, 2026:* Stacktos is **in development** and hasn't launched, so there are no player numbers yet. The current build is **v1.25.0**, with **6 zones**, a summit at height **470**, and an **8-track original soundtrack**.
 
 ## How to play
 
@@ -62,9 +74,27 @@ A plasma launcher below the tower carries each new block back and forth. Tap to 
 - [Move Nebula](docs/music/06-move-nebula.mp3)
 - [Build Complete](docs/music/07-build-complete.mp3)
 
-## Architecture
+## How I'm building it
+
+A phone-first browser game on Cloudflare's edge, with a small serverless backend for live Aptos data and the leaderboards. It builds on what I learned shipping Decicat.
 
 ![Architecture](docs/diagrams/architecture.png)
+
+## Design decisions
+
+- **One tap, phone first.** The whole game is a single input, so anyone can play in seconds.
+- **Real data as the game.** Blocks are recent mainnet transactions, so the network itself becomes the level.
+- **Learning without lecturing.** Zone names and short Aptos tips (with sources) teach a little between runs.
+- **A Daily Climb that respects your time.** Same climb for everyone each day, a reachable goal, and a streak that never punishes a missed day.
+- **Comeback mechanics.** Perfect landings grow the tower back, so skill is rewarded and runs stay tense.
+
+## What I'm learning
+
+- **Shipping on Cloudflare** and keeping live data fast and reliable.
+- **Building in public** with the X community and testing builds with players.
+- **Iterating from feedback**: many versions so far, each one tightening feel and pacing.
+- **Data accuracy**: showing real network activity faithfully.
+- **Privacy and security basics**: no accounts and minimal data.
 
 ## License
 
