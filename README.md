@@ -10,9 +10,9 @@ Stacktos is part of **Bitcade**, my series of browser arcade games.
 
 ![Stacktos](docs/card.png)
 
-## Why I'm making it
+## Why I made it
 
-I'm a community manager at the Aptos Foundation, in crypto since 2021. Explaining how a blockchain works is hard; playing with one is easy. Stacktos turns real Aptos mainnet transactions into the blocks you stack, so every run is a small, fun lesson about the network, with zones named after Aptos ideas like Block-STM, parallel execution and Move.
+I've been in crypto since early 2021, building communities and making games and tools for them. Explaining how a blockchain works is hard; playing with one is easy. Stacktos turns real Aptos mainnet transactions into the blocks you stack, so every run is a small, fun lesson about the network, with zones named after Aptos ideas like Block-STM, parallel execution and Move.
 
 ## Who it's for
 
@@ -20,7 +20,7 @@ Aptos community members and crypto-curious players who want a quick, one-tap gam
 
 ## Learn Aptos while you play
 
-Between runs, Stacktos shows a short **Did you know?** tip about Aptos. Each tip has a **Source** link to an official Aptos doc or post, so you can dig deeper in one tap. See [all 50 tips with sources](TIPS.md). Tips are grouped by the same six climb zones, and the ones you see match the zone you reached. Collect them as you play: the trophies screen tracks how many **Aptos facts** you've learned (out of 50), saved only on your device.
+Between runs, Stacktos shows a short **Did you know?** tip about Aptos. Each tip has a **Source** link to an official Aptos doc or post, so you can dig deeper in one tap. See [all 50 tips with sources](TIPS.md). Tips are grouped by the same six climb zones, and the ones you see match the zone you reached. As you play, the trophies screen shows how many **Aptos facts** you've learned (out of 50).
 
 *As of October 15, 2026, from the v1.25.0 tip list in the game.*
 
@@ -36,7 +36,7 @@ Between runs, Stacktos shows a short **Did you know?** tip about Aptos. Each tip
 
 ## The numbers
 
-*As of October 16, 2026:* Stacktos launched today at [stacktos.bitcade.xyz](https://stacktos.bitcade.xyz), so there are no player numbers yet. The launch build is **v1.25.0**, with **6 zones**, a summit at height **470**, **50 Aptos tips** with sources, and an **8-track original soundtrack**.
+*As of October 16, 2026:* Stacktos had just launched at [stacktos.bitcade.xyz](https://stacktos.bitcade.xyz), so there are no player numbers yet. The launch build is **v1.25.0**, with **6 zones**, a summit at height **470**, **50 Aptos tips** with sources, and an **8-track original soundtrack**.
 
 ## How to play
 
@@ -72,7 +72,7 @@ A plasma launcher below the tower carries each new block back and forth. Tap to 
 
   <img src="docs/screenshots/intro.png" alt="Intro" width="480">
 
-- **Live Aptos data**: blocks are real mainnet transactions
+- **Real Aptos transactions**: every block is a recent mainnet transaction
 - **50 Aptos tips with sources**, one short lesson between runs, collected as Aptos facts learned
 - **Trophies** and **unlockables**
 - **Global leaderboard**
@@ -89,12 +89,6 @@ A plasma launcher below the tower carries each new block back and forth. Tap to 
 - [Move Nebula](docs/music/06-move-nebula.mp3)
 - [Build Complete](docs/music/07-build-complete.mp3)
 
-## How I'm building it
-
-A phone-first browser game on Cloudflare's edge, with a small serverless backend for live Aptos data and the leaderboards. It builds on what I learned shipping Decicat.
-
-![Architecture](docs/diagrams/architecture.png)
-
 ## Design decisions
 
 - **Teach by playing.** A first run shows short hints right where you play instead of a tutorial screen.
@@ -103,14 +97,14 @@ A phone-first browser game on Cloudflare's edge, with a small serverless backend
 - **Learning without lecturing.** Fifty short Aptos tips, each with an official source, sit between runs and map to the zone you climbed.
 - **Comeback mechanics.** Streaks of Perfect landings widen the block again, and a near miss can hang on as an edge catch, so skill is rewarded and runs stay tense.
 
-## What I'm learning
+## What I learned
 
-- **Shipping on Cloudflare** and keeping live data fast and reliable.
+- **Building on what Decicat taught me**: a phone-first, one-tap game that is quick to open from a post on X.
 - **Building in public** with the X community and testing builds with players.
 - **Iterating from feedback**: many versions so far, each one tightening feel and pacing.
 - **Teaching Aptos through play**: turning real network facts into short, sourced tips players actually want to read.
 - **Data accuracy**: showing real network activity faithfully, and checking every tip against its official source.
-- **Privacy and security basics**: no accounts and minimal data.
+- **No sign-up**: open the link and play.
 
 ## License
 
