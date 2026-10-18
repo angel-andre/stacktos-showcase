@@ -2,7 +2,7 @@
 
 **An Aptos Game.** A one-tap tower climber where Aptor stacks live Aptos transactions as blocks, climbing through six zones to the summit at height 470. It's fun to play and built to teach: **50 Aptos tips** with official source links turn every run into a small lesson about the network.
 
-**Status: launched** on October 16, 2026 (v1.25.0). **[Play Stacktos](https://stacktos.bitcade.xyz)**
+**Status: launched** on October 16, 2026 (v1.25.0); latest update v1.26.0 on October 18, 2026. **[Play Stacktos](https://stacktos.bitcade.xyz)**
 
 Stacktos is part of **Bitcade**, my series of browser arcade games.
 
@@ -20,7 +20,11 @@ Aptos community members and crypto-curious players who want a quick, one-tap gam
 
 ## Learn Aptos while you play
 
-Between runs, Stacktos shows a short **Did you know?** tip about Aptos. Each tip has a **Source** link to an official Aptos doc or post, so you can dig deeper in one tap. See [all 50 tips with sources](TIPS.md). Tips are grouped by the same six climb zones, and the ones you see match the zone you reached. As you play, the trophies screen shows how many **Aptos facts** you've learned (out of 50).
+Between runs, Stacktos shows a short **Did you know?** tip about Aptos. Each tip has a **Source** link to an official Aptos doc or post, so you can dig deeper in one tap. See [all 50 tips with sources](TIPS.md). Tips are grouped by the same six climb zones, and the ones you see match the zone you reached.
+
+Since v1.26.0 every tip is also an **Aptos card** to collect. The end of a run shows a card you haven't found yet from the zone you reached, with a **New card!** moment. The **Aptos cards** gallery (from **Cards** on the title screen or the trophies page) shows all 50: collected cards open their fact and official source, and locked cards stay as silhouettes until you find them.
+
+<img src="docs/screenshots/cards_gallery.png" alt="Aptos cards gallery" width="240">
 
 *As of October 15, 2026, from the v1.25.0 tip list in the game.*
 
@@ -73,7 +77,7 @@ A plasma launcher below the tower carries each new block back and forth. Tap to 
   <img src="docs/screenshots/intro.png" alt="Intro" width="480">
 
 - **Real Aptos transactions**: every block is a recent mainnet transaction
-- **50 Aptos tips with sources**, one short lesson between runs, collected as Aptos facts learned
+- **50 Aptos tips with sources**, one short lesson between runs, collected as cards in the **Aptos cards** gallery
 - **Trophies** and **unlockables**
 - **Global leaderboard**
 - **Original soundtrack**, one theme per zone
