@@ -2,7 +2,7 @@
 
 **An Aptos Game.** A one-tap tower climber where Aptor stacks live Aptos transactions as blocks, climbing through six zones to the summit at height 470. It's fun to play and built to teach: **50 Aptos tips** with official source links turn every run into a small lesson about the network.
 
-**Status: launched** on October 16, 2026 (v1.25.0); latest update v1.26.0 on October 18, 2026. **[Play Stacktos](https://stacktos.bitcade.xyz)**
+**Status: launched** on October 16, 2026 (v1.25.0); latest update v1.26.2 on October 18, 2026. **[Play Stacktos](https://stacktos.bitcade.xyz)**
 
 Stacktos is part of **Bitcade**, my series of browser arcade games.
 
